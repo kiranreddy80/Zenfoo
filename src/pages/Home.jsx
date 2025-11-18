@@ -12,6 +12,8 @@ import DealsSection from '../components/Deals/DealsSection';
 import Footer from '../components/Footer/Footer';
 import ComingSoonPopup from '../components/ComingSoon/ComingSoonPopup';
 import ElectronicsSection from '../components/Electronics/ElectronicsSection';
+import Contact  from '../components/contact/ContactSection';
+import TermsPrivacySection from '../components/Terms&privacypolicy/TermsPrivacySection';
 
 const Home = () => {
   const [showComingSoon, setShowComingSoon] = useState(true);
@@ -51,6 +53,8 @@ const Home = () => {
       
       {/* Deals & Offers Section */}
       <DealsSection />
+      <Contact />
+      <TermsPrivacySection />
       
       {/* Footer Section */}
       <Footer />
